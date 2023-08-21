@@ -1,0 +1,19 @@
+/* Write your CSS here */
+
+.item-img {
+  height: 50px;
+}
+.card {
+  height: 250px;
+  width: 200px;
+  background-color: #f8f8ff;
+  padding: 5px;
+  margin: 5px;
+}
+.para {
+  padding: 0px;
+  font-size: 10px;
+}
+.icon {
+  height: 20px;
+}

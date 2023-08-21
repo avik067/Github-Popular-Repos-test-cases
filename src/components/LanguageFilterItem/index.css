@@ -1,0 +1,20 @@
+/* Write your CSS here */
+
+.list-item {
+  margin: 10px;
+
+  font-family: ;
+  font-size: 12px;
+}
+.high-light {
+  color: #0284c7;
+  border: 2px solid #0284c7;
+  border-radius: 10px;
+  padding: 5px;
+}
+.but {
+  font-weight: 740;
+  background-color: transparent;
+  outline: none;
+  border: 0px;
+}

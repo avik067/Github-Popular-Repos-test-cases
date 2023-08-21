@@ -1,0 +1,21 @@
+/* Write your CSS here */
+
+.main {
+  padding: 10px;
+}
+.heading {
+  font-family: Lobster;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0px;
+}
+.apiFail-img {
+  max-width: 80%;
+  max-height: 80%;
+}
