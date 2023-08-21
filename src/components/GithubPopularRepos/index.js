@@ -28,11 +28,11 @@ class GithubPopularRepos extends Component {
   getData = async () => {
     const {activeTabId} = this.state
     const githubReposApiUrl = `https://apis.ccbp.in/popular-repos?language=${activeTabId}`
-    const options = {
-      method: 'GET',
-    }
+    // const options = {
+    //   method: 'GET',
+    // }
 
-    const response = await fetch(githubReposApiUrl, options)
+    const response = await fetch(githubReposApiUrl)
     const data = await response.json()
     if (response.ok === true) {
       this.setState({isLoading: false, currentList: data.popular_repos})

@@ -20,7 +20,7 @@ const RepositoryItem = props => {
         <img className="item-img" src={avatarUrl} alt={name} />
       </div>
 
-      <p className="para">{name}</p>
+      <h1 className="small-h">{name}</h1>
       <div className="row ">
         <img
           className="icon"

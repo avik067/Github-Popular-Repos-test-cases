@@ -10,6 +10,9 @@
   padding: 5px;
   margin: 5px;
 }
+.small-h {
+  font-size: 10px;
+}
 .para {
   padding: 0px;
   font-size: 10px;
